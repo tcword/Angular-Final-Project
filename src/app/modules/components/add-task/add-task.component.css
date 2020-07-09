@@ -1,0 +1,29 @@
+.add {
+  text-align: center;
+}
+
+.ta1 {
+  height: 150px;
+  width: 400px;
+}
+
+.ta2 {
+  height: 60px;
+  width: 300px;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    font-size: larger;
+    background-color: cadetblue;
+    color: white;
+}
+
+h2{
+  font-family: arial;
+}
+
+h3 {
+  font-family: arial;
+}

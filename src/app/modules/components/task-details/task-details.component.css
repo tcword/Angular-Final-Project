@@ -1,0 +1,28 @@
+ul{
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: arial;
+}
+
+.taskList {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+button {
+    margin-right: 12px;
+    background-color: cadetblue;
+    color: white;
+}
+
+h3 {
+    font-family: arial;
+}
+
+.number {
+    text-decoration: underline;
+}
+

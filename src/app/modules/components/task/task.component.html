@@ -1,0 +1,9 @@
+<div class="task">
+  <h1>Click Task Number for Details</h1>
+  <ul>
+    <li *ngFor="let task of task">
+      <h2>Task: </h2><a [routerLink]="['/details', task.id]">( {{ task.id }} )</a>
+       <button (click)="deleteTasks(task.id)">Delete Task</button>
+    </li>
+  </ul>
+</div>

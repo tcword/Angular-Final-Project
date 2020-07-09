@@ -1,0 +1,11 @@
+<div class="add">
+  <h2>Add Task</h2>
+  <h3>Time to Complete:</h3>
+  <input [(ngModel)]="newTask.complete" /> <br /><br />
+  <h3>Description:</h3>
+  <textarea class="ta1" [(ngModel)]="newTask.description"></textarea>
+  <br />
+  <h3>Items Needed:</h3>
+  <textarea class="ta2" [(ngModel)]="newTask.items"></textarea><br><br>
+  <button (click)="addTask()">Add</button>
+</div>

@@ -1,0 +1,11 @@
+<div class="edit">
+  <h2>Edit Task</h2>
+  <h3>Complete:</h3>
+  <input [(ngModel)]="editTask.complete" /> <br /><br />
+  <h3>Description:</h3>
+  <textarea class="textarea1" [(ngModel)]="editTask.description"></textarea>
+  <h3>Items:</h3>
+  <textarea class="textarea2" [(ngModel)]="editTask.items"></textarea>
+  <br><br>
+  <button (click)="saveTask()">Update</button>
+</div>

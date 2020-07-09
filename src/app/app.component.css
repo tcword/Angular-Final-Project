@@ -1,0 +1,25 @@
+ .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: inline-block;
+    align-items: center;
+    background-color: #1976d2;
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 22px;
+    letter-spacing: 8px;
+  }
+
+  .title {
+      text-align: center;
+  }
+
+ 
+
+
+ 
+ 

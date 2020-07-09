@@ -1,0 +1,22 @@
+{
+  "task": [
+    {
+      "id": 1,
+      "complete": "6/18/20",
+      "description": "Clean your room and organize books and toys.",
+      "items": "broom, mop, and trash-can."
+    },
+    {
+      "id": 2,
+      "complete": "6/19/20",
+      "description": "Mow the yard and weed-eat.",
+      "items": "Lawn mower and weed-eater."
+    },
+    {
+      "id": 3,
+      "complete": "6/20/20",
+      "description": "Sell Bitcoin at $9,347.",
+      "items": "Coinbase and Binance App"
+    }
+  ]
+}

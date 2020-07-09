@@ -1,0 +1,10 @@
+<div class="taskList">
+  <h1>Task Details</h1>
+  <ul>
+    <li><h3 class="number">Task Number: {{task.id}}</h3><h4>Time to Complete: {{ task.complete }}</h4> <h4>Summary: {{ task.description }}</h4>
+      <h4>Items: {{ task.items }}</h4>
+      <a [routerLink]="['/task']"><button (click)="deleteTask(task.id)">Delete Task</button></a>
+      <a [routerLink]="['/edit', task.id]"><button>Edit</button></a>
+    </li>
+  </ul>
+</div>
